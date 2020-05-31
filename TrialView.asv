@@ -187,7 +187,6 @@ classdef TrialView < handle
             mapAxes = self.guiHandles.mapAxes;
             mapImage = self.guiHandles.mapImage;
             set(mapImage,'CData',map.data);
-            axis image
             cmap = self.mapColorMap;
             switch map.type
               case 'anatomy'
